@@ -89,6 +89,17 @@ header {
 	margin: 2px;
 }
 
+.links a:hover {
+    animation-duration: .25s;
+    animation-name: pitchShift;
+    color: grey;
+}
+
+@keyframes pitchShift {
+    from {color: black;}
+    to {color: grey;}
+  }
+
 #aboutImg {
     display: flex;
     justify-content: center;
